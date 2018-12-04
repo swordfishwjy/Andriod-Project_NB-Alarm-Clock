@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2014 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="action_settings">Settings</string>
+    <string name="compare">Compare</string>
+    <string name="image1">Image1:</string>
+    <string name="image2">Image2:</string>
+    <string name="select_images_label">Select images to compare:</string>
+    <string name="result">Result</string>
+    <string name="method_name">Method Name</string>
+    <string name="similarity">Similarity</string>
+    <string name="toast_images_notloaded">You need to preset a photo and try again.</string>
+    <string name="app_name">NB Alarm Clock</string>
+    <string name="str_button1">SetAlarm</string>
+    <string name="str_button2">DeleteAlarm</string>
+    <string name="str_title2">RepeatAlarm</string>
+    <string name="str_title3">Alarm1</string>
+    <string name="str_title4">Alarm2</string>
+    <string name="str_default">No Alarm</string>
+    <string name="str_text1">Start Time</string>
+    <string name="str_text2">RepeatAlarm</string>
+    <string name="str_text3">seconds</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string-array name="function">
+        <item>Step Counter</item>
+        <item>Photo Comparison</item>
+        <item>Gesture Comparison</item>
+        <item>Shake</item>
+        <item>Action</item>
+        <item>Voice</item>
+    </string-array>
+</resources>

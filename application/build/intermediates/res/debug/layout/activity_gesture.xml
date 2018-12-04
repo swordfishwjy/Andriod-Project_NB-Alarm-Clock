@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nbalarmclock.gesture"
+    android:background="@drawable/or_background"
+    android:orientation="vertical" >
+
+    <!--    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="hontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="export db"
+                android:onClick="exportDB"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show"
+                android:onClick="show"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="compare"
+                android:onClick="compare"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="clear"
+                android:onClick="clear"/>
+
+        </LinearLayout> -->
+
+
+        <FrameLayout
+            android:id="@+id/screen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+        </FrameLayout>
+
+    </LinearLayout>
+<!-- From: file:/F:/myfile/2015-fall/mobile%20user%20exp/project_final/NBAlarm_11.29/NBAlarm/application/src/main/res/layout/activity_gesture.xml -->

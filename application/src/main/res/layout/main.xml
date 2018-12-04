@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/layout1"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/other"
+	android:orientation="vertical"
+>
+  <DigitalClock
+    android:id="@+id/dClock"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40sp"
+    android:textColor="@drawable/blue"
+    android:layout_x="13dp"
+    android:layout_y="3dp"
+  >
+  </DigitalClock>
+	  <TextView
+	    android:id="@+id/text1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/str_title3"
+	    android:textSize="20sp"
+	    android:textColor="@drawable/black"
+	    android:layout_x="0dp"
+	    android:layout_y="82dp"
+	  >
+	  </TextView>
+	  <Button
+	    android:id="@+id/mButton1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/str_button1"
+	    android:textColor="@drawable/black"
+	    android:textSize="18sp"
+	    android:layout_x="154dp"
+	    android:layout_y="71dp"
+	  >
+      </Button>
+      
+	    <TextView
+		    android:id="@+id/setTime1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/str_default"
+		    android:textColor="@drawable/red"
+		    android:textSize="16sp"
+		    android:layout_x="0dp"
+		    android:layout_y="153dp"
+	  >
+	  </TextView>
+	  <Button
+		    android:id="@+id/mButton2"
+		    android:layout_width="198dp"
+		    android:layout_height="wrap_content"
+		    android:text="@string/str_button2"
+		    android:textColor="@drawable/black"
+		    android:textSize="18sp"
+		    android:layout_x="167dp"
+		    android:layout_y="157dp"
+	  >
+	  </Button>
+
+	<Spinner
+		android:id="@+id/spinner"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+	</Spinner>
+
+</LinearLayout>

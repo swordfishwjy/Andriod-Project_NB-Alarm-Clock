@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="#676565"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_light"
+        android:layout_margin="1dp"/>
+
+</RelativeLayout><!-- From: file:/F:/myfile/2015-fall/mobile%20user%20exp/project_final/NBAlarm_11.29/NBAlarm/application/src/main/res/layout/popup_view_item.xml -->

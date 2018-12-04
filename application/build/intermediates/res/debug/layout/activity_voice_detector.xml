@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/creem_chen"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dip"
+        android:text="Current:"
+        android:id="@+id/voice"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max:"
+        android:id="@+id/maxVoice"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:text="Currently Completed times:"
+        android:id="@+id/completeTimes"
+        android:layout_weight="0.06" />
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/recorder_blue"
+        android:id="@+id/start"
+        android:layout_weight="0.02"
+        android:layout_gravity="left" />
+</LinearLayout><!-- From: file:/F:/myfile/2015-fall/mobile%20user%20exp/project_final/NBAlarm_11.29/NBAlarm/application/src/main/res/layout/activity_voice_detector.xml -->

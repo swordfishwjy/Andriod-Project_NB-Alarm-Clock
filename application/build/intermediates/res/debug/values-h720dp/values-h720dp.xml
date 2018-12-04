@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/myfile/2015-fall/mobile%20user%20exp/project_final/NBAlarm_11.29/NBAlarm/application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/res/values-h720dp/values-h720dp.xml -->
+    <eat-comment/>
+    <dimen name="abc_alert_dialog_button_bar_height">54dip</dimen>
+</resources>

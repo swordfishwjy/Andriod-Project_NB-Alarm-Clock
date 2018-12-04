@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/scream_chen"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="left"
+        android:text="Current:"
+        android:textSize="30dp"
+        android:background="@drawable/bar_green"
+        android:textColor="@color/material_grey_800"
+        android:id="@+id/voice"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="left"
+        android:background="@drawable/bar_orienge"
+        android:text="Max   327"
+        android:textSize="30dp"
+        android:textColor="@color/material_grey_800"
+        android:id="@+id/maxVoice"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/voice"
+        android:layout_alignEnd="@+id/voice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/completeTimes"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/maxVoice"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/round_transparent"
+        android:id="@+id/start"
+        android:text="START"
+
+        android:layout_gravity="center"
+        android:layout_alignTop="@+id/completeTimes"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout><!-- From: file:/F:/myfile/2015-fall/mobile%20user%20exp/project_final/NBAlarm_11.29/NBAlarm/application/src/main/res/layout/activity_voice_layout.xml -->

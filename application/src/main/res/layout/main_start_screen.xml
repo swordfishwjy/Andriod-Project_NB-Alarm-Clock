@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/or1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/appName"
+        android:text="@string/app_name"
+        android:textColor="#676565"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:id="@+id/linearLayout1"
+        android:layout_marginLeft="20dip"
+        android:layout_below="@+id/appName"
+        android:layout_alignEnd="@+id/appName"
+        android:layout_marginTop="47dp">
+
+    </LinearLayout>
+
+    <com.example.android.camera2basic.PopupListView
+        android:id="@+id/popupListView"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="130dp">
+    </com.example.android.camera2basic.PopupListView>
+
+    <?ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:id="@+id/deleteBT"
+        android:background="@drawable/trash_can"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_centerHorizontal="true" /?>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:switchMinWidth="70dp"
+        android:id="@+id/trunONOFF"
+        android:background="@color/material_blue_grey_800"
+        android:track="@color/button_material_dark"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignStart="@+id/linearLayout1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:id="@+id/hint"
+        android:text="Click Switch To Set A New Alarm"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/trunONOFF"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/setTimeHistory"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="@string/str_default"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@+id/appName"
+        android:layout_marginTop="40dip"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+
+</RelativeLayout>

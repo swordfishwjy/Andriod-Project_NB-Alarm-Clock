@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.camera2basic" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MaterialTheme" >
+        <receiver
+            android:name="com.example.android.camera2basic.CallAlarm"
+            android:process=":remote" />
+
+        <activity
+            android:name="com.example.android.camera2basic.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.camera2basic.AlarmAlert"
+            android:label="@string/app_name" >
+        </activity>
+
+        <service android:name="com.example.android.camera2basic.MyAlarmService" />
+
+        <activity
+            android:name="com.example.android.camera2basic.CameraActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.android.camera2basic.CIMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.example.android.camera2basic.StepDetctor" />
+        <activity android:name="com.example.android.camera2basic.gesture" >
+        </activity>
+        <activity android:name="com.example.android.camera2basic.shake" >
+        </activity>
+        <activity android:name="com.example.android.camera2basic.VoiceDetector" >
+        </activity>
+        <activity android:name="com.example.android.camera2basic.CameraActivity_preset" >
+        </activity>
+    </application>
+
+</manifest>

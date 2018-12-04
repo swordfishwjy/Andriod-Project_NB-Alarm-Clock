@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-b7861782f17556fd693c0662138c3636ee09ecf9.jar" />
+    </item>
+    <item
+        jar="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bb0ac3f3ee2d71854501cc28e52cc84a20209b41">
+        <dex dex="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\pre-dexed\debug\classes-2b94ec87cb09510da74067a263fe9d59c4a76f52.jar" />
+    </item>
+    <item
+        jar="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\pre-dexed\debug\classes-1e293ca6bd2a17b0318a4e7fb26415054a75cd64.jar" />
+    </item>
+    <item
+        jar="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\pre-dexed\debug\classes-c52fd9c3dd93483f907d0ce21d85459bca01f025.jar" />
+    </item>
+    <item
+        jar="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\pre-dexed\debug\classes-11e71372716c10e76d914e2d7583e235adc4484d.jar" />
+    </item>
+    <item
+        jar="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\exploded-aar\com.android.support\support-v13\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5d4bccb885c8a89d066ecb6c4addb553a99a79a2">
+        <dex dex="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\pre-dexed\debug\internal_impl-23.0.0-9a43564acb65c168674a93c8dfd33ec8ce60cf5d.jar" />
+    </item>
+    <item
+        jar="F:\myfile\2015-fall\mobile user exp\AndroidStudioProjects\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="F:\myfile\2015-fall\mobile user exp\project_final\NBAlarm_11.29\NBAlarm\application\build\intermediates\pre-dexed\debug\support-annotations-23.0.0-85f3b1959aea9269ec74153aec183e7109e501b4.jar" />
+    </item>
+
+</items>

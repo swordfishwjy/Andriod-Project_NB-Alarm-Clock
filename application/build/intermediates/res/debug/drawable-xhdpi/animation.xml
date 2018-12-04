@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true" >
+
+    <item
+        android:drawable="@drawable/ali"
+        android:duration="250"/>
+    <item
+        android:drawable="@drawable/ali1"
+        android:duration="250"/>
+    <item
+        android:drawable="@drawable/ali2"
+        android:duration="250"/>
+
+</animation-list><!-- From: file:/F:/myfile/2015-fall/mobile%20user%20exp/project_final/NBAlarm_11.29/NBAlarm/application/src/main/res/drawable-xhdpi/animation.xml -->
