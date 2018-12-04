@@ -1,4 +1,4 @@
-* “NB Alarm Clock” * aims at waking people up in the morning. It’s an alarm clock, only much better. -------by NB Alarm Clock Group
+** “NB Alarm Clock” ** aims at waking people up in the morning. It’s an alarm clock, only much better. -------by NB Alarm Clock Group
 
 In most of the cases, setting an alarm clock means nothing to those who love sleeping more than anything else. Most of the alarm clocks in the market are too easy to be turned off. By simply unlocking the screen or exiting the alarm application, one can go back to sleep in seconds. What’s more, normally used alarm clocks have no attraction to users but simply an alarm function. The above two flaws motivate us to develop a better application, which can definitely wake people up and turn waking up in the morning into a more interesting and happy moment of the day.
 
@@ -12,7 +12,7 @@ We implemented six modes to wake people up.
 5. Draw in the Air
 6. Scream
 
-* Functions that against cheating: *
+** Functions that against cheating: **
 Back button of the device is disabled so that there is no way back. App can restart itself and it cannot be killed unless user finishes his task. Volume of the alarm cannot be adjusted and will increase if user tries to decrease it.
 
 #### Crazy Jump
