@@ -30,3 +30,6 @@ Just as the name indicates, users need to hold their phones tight and shake phon
 
 #### Draw in the Air
 In this mode users need to hold their phones and draw a triangle in the air for three times. An arrow will show up on one of the edge of the triangle on screen to lead users move their arms in the right direction. One interesting aspect of this mode is that the geographic orientation of users when they invoke this mode does matters. It cannot be changed; otherwise no right action will be considered taken.
+
+##### Note:
+This is a group works. Thanks to Jianye Sui, Chen Zhang, Haoyuan Xu.
